@@ -1,11 +1,22 @@
 <html>
   <head>
     <title>アイスクリームショップ</title>
+
+    <!-- jquery -->
     <script src="jquery-1.3.2.js"></script>
+
+    <!-- models -->
+    <script src="models/icecream.js"></script>
+    <script src="models/selection.js"></script>
+
+    <!-- controllers -->
     <script src="mvc-icecream.js"></script>
+
+    <!-- tests -->
+    <script src="test/helper.js"></script>
+
   </head>
   <body>
-
     <form>
       <ul id="icecreams">
         <!-- ここにアイスクリーム一覧が入る -->
@@ -16,5 +27,7 @@
       <!-- ここに現在のアイスクリーム内容が入る -->
     </div>
 
+    <div id="clear-icecreams">
+    </div>
   </body>
 </html>
